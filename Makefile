@@ -24,6 +24,8 @@ io.o: io.c io.h lab.h
 clean:
 	rm -rf obj/* main
 
+obj :
+	mkdir obj
 
 Archive:
 	tar -cvz src/* obj Makefile include/* Bolten* -f Lab_BOLTENHAGEN.tar.gz

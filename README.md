@@ -5,6 +5,7 @@ During the second year in computer science at the University of Strasbourg, I ha
 The user choose a size of the labyrinth that can be a rectangle and some algorithms are going to choose a two opposite doors that must be connected. All the existind ways are random generated. 
 
 ## Installation
+create obj directory : make obj
 Use the Makefile to compile : make <br>
 Launch with ./main <br>
 
